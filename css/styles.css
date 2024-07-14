@@ -1,0 +1,240 @@
+
+/* RESET Style */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+address {
+  font-style: normal;
+}
+
+/* загальні значення */
+
+body {
+  font-family: "Roboto", sans-serif ;
+  color: #2c2c2c;
+}
+.container {
+  max-width: 1280px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+}
+
+/*---- section HEADER --------- */
+.header {
+  box-shadow: 0 4px 24px 0 rgba(105, 105, 105, 0.1);
+  background-color: #fefefe;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.nav {
+  margin-right: 30px;
+}
+.nav-list {
+  display: flex;
+  /* align-items: center; */
+  gap: 28px;
+}
+.nav-link {
+  display: block;
+  font-size: 14px;
+  padding: 28px 0;
+
+}
+.logo {
+  margin-right: auto;
+}
+.nav-link:hover, .nav-link:focus {
+  font-weight: 700;
+  text-decoration: underline;
+  color: #bbf330;
+}
+.btn-order-now {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #2c2c2c;
+  cursor: pointer;
+  background-color: #bbf330;
+  border-radius: 30px;
+  padding: 0 17px;
+  min-width: 98px;
+  height: 32px;
+  border: none;
+}
+
+/*---- section HERO ----------- */
+
+.hero {
+  padding-top: 14px;
+  padding-bottom: 69px;
+}
+.hero .container {
+  display: flex;
+  align-items: center;
+}
+.hero-text-wrap {
+  max-width: 511px;
+  margin-right: 143px;
+}
+.hero-title {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 28px;
+}
+.hero-text {
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+/*--section ABOUT "BIG Apple"-- */
+
+.about {
+  padding-top: 113px;
+  padding-bottom: 124px;
+  background-color: #FFE550;
+}
+.about-container {
+  display: flex;
+  align-items: center;
+}
+.about-text-wrap {
+  margin-left: 90px;
+  max-width: 573px;
+}
+.about-title {
+  font-size: 42px;
+  line-height: 1.5;
+  margin-bottom: 20px; 
+}
+.about-text {
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+.about-list {
+  display: flex;
+  gap: 67px;
+  margin-bottom: 32px;
+}
+.about-list-item {
+  width: calc((100% - 67px ) / 2);
+}
+.about-subtitle {
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 16px;
+}
+.about-description {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.about-btn {
+  border: 2px solid #7eb101;
+  background: #fff;
+}
+
+/*-- section FAVORITES -------- */
+
+.Favorites {
+  padding-top: 101px;
+  padding-bottom: 120px;
+}
+.Favorites-title {
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.Favorites-text {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.Favorites-list {
+display: flex;
+flex-wrap: wrap;
+gap: 32px;
+}
+.Favorites-item {
+  width: calc((100% - 2 * 32px ) / 3 );
+}
+
+/*-- section CUSTOMERS -------- */
+
+.customers {
+  padding-top: 140px;
+  padding-bottom: 126px;
+  background-color: #FFE550;
+}
+.customers-container {
+}
+.customers-title {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+.customers-text {
+  margin-bottom: 32px;
+}
+.customers-list {
+  display: flex;
+  gap: 139px;
+  /* padding: 60px 14px 0; */
+
+
+}
+.customers-item {
+  background-color: #fff;
+  border-radius: 30px;
+  border-top-left-radius: 0;
+  width: 473px;
+  /* height: 203px; */
+  padding: 14px;
+}
+.customers-comment {
+  font-size: 18px;
+}
+.customers-card-wrap {
+display: flex;
+margin-top: 40px;
+}
+.customers-image {
+  width: 48px;
+  height: 48px;
+  margin-right: 16px;
+}
+.customers-data {
+  width: 94px;
+  height: 52px;
+  padding-right: 18px;
+  border-right: 1px solid #7eb101;
+
+}
+.customers-name {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.dude {
+  line-height: 1.5;
+}
+
+/*---- section OFFERS --------- */
+
+  .offers {
+    padding-top: 176px;
+    padding-bottom: 201px;
+  }
+
+/*--------- FOOTER --------- */
