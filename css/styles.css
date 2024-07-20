@@ -254,7 +254,7 @@ margin-top: 40px;
     margin-bottom: 24px;
   }
 
-  .offers-input {
+  .email-input {
     border: 0.85px solid #ffe550;
     border-radius: 30px;
     /* padding: 10px; */
@@ -269,7 +269,7 @@ margin-top: 40px;
 
   }
 
-  .offers-input:focus {
+  .email-input:focus {
     outline: none;
     border: 1px solid #31D0AA;
   }
@@ -308,11 +308,16 @@ margin-top: 40px;
   padding-bottom: 100px;
   padding-left: 21px;
   padding-right: 16px;
-  width: 100;
-  /* height: 395px; */
-  margin: 0 auto; */
+  width: 100%;
+  width: 1280px;
+  height: 395px;
+  margin: 0 auto;
 }
 .footer-container {
+  /* display: flex;
+  align-items: center; */
+}
+.footer-top {
   display: flex;
   align-items: center;
 }
@@ -325,6 +330,7 @@ margin-top: 40px;
   margin-right: 320px;
 }
 .footer-menu-item {
+
 }
 
 
@@ -338,11 +344,20 @@ margin-top: 40px;
 }
 .footer-form {
   display: flex;
-  gap: 13px;
+  /* gap: 13px; */
+  margin-bottom: 12px;
 }
 .footer-input {
   width: 279px;
   height: 42px;
+  margin-right: 13px;
+  border: 0.85px solid #ffe550;
+    border-radius: 30px;
+    background-color: #fefefe;
+    padding: 0 11px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #505050;
 }
 
 .footer-btn {
@@ -351,10 +366,17 @@ margin-top: 40px;
 }
 
 .footer-text-agreement {
+  margin-bottom: 80px;
+}
+.footer-bottom {
+  display: flex;
 }
 .footer-policy-list {
+  display: flex;
+  margin-right: 780px;
 }
 .footer-policy-item {
+
 }
 .footer-text-year {
 }
